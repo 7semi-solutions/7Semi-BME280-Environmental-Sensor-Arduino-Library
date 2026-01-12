@@ -81,8 +81,8 @@ Default I2C address:
 | GND      | GND        |
 | CS       | Any GPIO (example: 10) |
 | SCK      | SCK        |
-| MOSI     | MOSI       |
-| MISO     | MISO       |
+| MOSI (SDI)    | MOSI       |
+| MISO (SDO)    | MISO       |
 
 ---
 
