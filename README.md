@@ -1,6 +1,6 @@
-# 7Semi-BME690-Arduino-Library
+# 7Semi-BME280-Arduino-Library
 
-This Arduino library provides support for the **7Semi BME690 Sensor Module**, a powerful 3-in-1 environmental sensor capable of measuring **temperature**, **humidity**, and **barometric pressure** via I2C. It is ideal for air quality monitoring, weather stations, and smart environmental IoT systems.
+This Arduino library provides support for the 7Semi BME280 Sensor Module, a high-precision 3-in-1 environmental sensor capable of measuring temperature, humidity, and barometric pressure via I2C or SPI. Ideal for weather stations, air quality monitoring, and IoT applications.
 
 ![Arduino](https://img.shields.io/badge/platform-arduino-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -8,16 +8,6 @@ This Arduino library provides support for the **7Semi BME690 Sensor Module**, a 
 
 ---
 
-## Hardware Required
-
-- 7Semi BME690 Sensor Module  
-- Arduino-compatible board  # 7Semi BME280 Arduino Library
-
-Arduino-compatible wrapper library for the **Bosch Sensortec BME280** environmental sensor.
-
-This library uses the official Bosch Sensortec BME280 driver internally and provides an easy-to-use Arduino-style interface for **I2C** and **SPI**.
-
----
 
 ## Features
 
@@ -161,12 +151,12 @@ The recommended way to install this library is via the **Arduino Library Manager
    - `Sketch` > `Include Library` > `Manage Libraries…` (Arduino IDE 1.x), or  
    - `Tools` > `Manage Libraries…` or click 📚 (IDE 2.x sidebar)
 3. Search for:
-   " 7Semi BME690 "
+   " 7Semi BME280 "
 4. Click **Install**
 
 Once installed, include it in your sketch:
 ```cpp
-" #include <7semi_bme690.h> "
+" #include <7semi_bme280.h> "
 
 🔎 Tip: You can find all 7Semi libraries by just searching for 7Semi in the Library Manager.
 
